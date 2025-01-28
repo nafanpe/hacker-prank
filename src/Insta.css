@@ -195,4 +195,16 @@
         top: 0;
         opacity: 1;
     }
+
+    .overlay .black{
+        z-index: 1;
+        background-color: black;
+        position: absolute;
+        width: 200%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        opacity: 1;
+      }
+    
   }
