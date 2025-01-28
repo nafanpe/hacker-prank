@@ -61,7 +61,7 @@ const InstagramPassFinder = () => {
           <div className="black"></div>
           <video ref={firstVideoRef} autoPlay>
             <source
-              src="src/assets/hacked.mp4"
+              src="./src/assets/hacked.mp4"
               type="video/mp4"
             />
             Your browser does not support the video tag.
@@ -70,7 +70,7 @@ const InstagramPassFinder = () => {
           {showSecondVideo && (
             <video ref={secondVideoRef} autoPlay loop>
               <source
-                src="src/assets/Try this Hacker Voice to Prank your friends!.mp4"
+                src="./src/assets/Try this Hacker Voice to Prank your friends!.mp4"
                 type="video/mp4"
               />
               Your browser does not support the video tag.
