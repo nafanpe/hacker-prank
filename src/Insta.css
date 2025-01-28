@@ -15,7 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    overflow: hidden;
   }
   
   .dark-screen {
@@ -161,6 +161,10 @@
   
   /* Responsive design */
   @media (max-width: 640px) {
+    *{
+        overflow: hidden;
+    }
+
     .finder-heading h1{
         font-size: 2rem;
         margin-top: -2rem;
